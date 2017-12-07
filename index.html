@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="text-center my-3">GifTastic Animal Search</h1>
+
+    <!-- Buttons Row -->
+    <div class="row">
+      <div class="col-12">
+       <!-- Rendered Buttons will get Dumped Here  -->
+       <div id="buttons-view"></div>
+     </div>
+   </div>
+   <!-- End Buttons Row -->
+
+   <!-- Content Row -->
+   <div class="row mt-3">
+    <!-- Collection of Gifs Column -->
+    <div class="col-8">
+      <!-- Gifs will Get Dumped Dere -->
+      <div id="animals-view"></div>
+    </div>
+    <!-- End Collection of Gifs Column -->
+
+    <!-- User Input Form Column -->
+    <div class="col-3">
+      <form id="animal-form">
+        <label for="animal-input"><b>Add an animal</b></label>
+        <input type="text" id="animal-input"><br>
+
+        <!-- Button triggers new movie to be added -->
+        <input id="add-animal" class="btn btn-info m-2" type="submit" value="Submit">
+      </form>
+    </div>
+    <!-- End Input Form Column -->
+  </div>
+  <!-- End Content Row -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</div>
+</body>
+
+</html>
